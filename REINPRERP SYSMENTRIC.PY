@@ -1,0 +1,9 @@
+n=int(input())
+sym_number=0
+pow=0
+temp=n
+while(temp>0):
+    sym_number+=(2**pow)
+    temp=temp//2
+    pow+=1
+print(sym_number-n)    
